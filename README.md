@@ -42,3 +42,7 @@ Clone the Repository:
 ```bash
 git clone https://github.com/Shamima21/CancerGeneIdentification.git
 cd CancerGeneIdentification
+```
+## Comparative Methods Accuracy Evaluation
+We evaluated the accuracy of two state-of-the-art methods on our training dataset, validated using our test set. Additionally, we validated the accuracy using methods such as LOOCV and 10-fold CV. The results of these comparisons, including accuracy evaluations, overlap analysis, and biological relevance analysis, are provided in [Comparative Evaluation](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Comparative%20Evaluation)
+
