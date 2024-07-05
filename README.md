@@ -20,3 +20,25 @@ A [Data Transformation](https://github.com/Shamima21/High-Dimensional-Data-Trans
 Tested the methodology on three public microarray cancer [datasets](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Data/Preprocessed%20Data)
 #### Integration: 
 Overall, Combined computational approaches with the biological relevance of cancer development.
+
+## Getting Started
+
+### Installation
+
+#### Prerequisites
+Before you begin, ensure you have met the following requirements:
+- You have installed Java (required for Weka).
+- You have a basic understanding of command-line operations.
+  
+This project contains several components:
+- Python
+- Weka
+- Jupyter Notebooks
+- Enrichr for enrichment analysis
+
+#### Steps
+
+Clone the Repository:
+```bash
+git clone https://github.com/Shamima21/CancerGeneIdentification.git
+cd CancerGeneIdentification
