@@ -8,15 +8,15 @@ This repository presents a structured framework for the research project titled 
 Our main contributions are as follows:
 
 #### Hybrid Wrapper Method:
- Combined metaheuristics and machine learning for efficient gene selection.
+ Combined metaheuristics and machine learning for efficient gene selection. [see here](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Gene%20Selection)
 
 #### Enrichment Analysis:
-Developed a framework to identify gene associations with cancer pathways.
+Developed a framework to identify gene associations with cancer pathways. [see here](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Enrichment%20Analysis)
 #### Data Normalization: 
 A [Data Transformation](https://github.com/Shamima21/High-Dimensional-Data-Transformation-) method for normalizing microarray data.
 #### Optimization:
  Utilized eight metaheuristics and five classifiers to enhance gene selection and classification.
-#Empirical Validation: 
-Tested the methodology on three public microarray cancer datasets.
+#### Empirical Validation: 
+Tested the methodology on three public microarray cancer [datasets](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Data/Preprocessed%20Data)
 #### Integration: 
 Overall, Combined computational approaches with the biological relevance of cancer development.
