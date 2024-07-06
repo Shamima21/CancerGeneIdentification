@@ -2,6 +2,7 @@
 ### Overview
 
 Cancer is still one of the most notable causes of death worldwide. Identifying cancer-causing genes is essential for understanding cancer development and its progression. 
+
 This repository presents a structured framework for the research project titled "Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning." The project utilized existing metaheuristics and machine-learning approaches to enhance the identification of the most significant genes from microarray data. To ensure biological relevance, enrichment analysis, a statistical method, was also integrated. This might help in finding more suitable genes that could be valuable for early diagnosis, personalized therapitucal targets, and future oncogenetic research.
 
 ## Key contributions
@@ -32,9 +33,9 @@ Before you begin, ensure you have met the following requirements:
   
 This project contains several components:
 - Python
-- Weka
-- Jupyter Notebooks
-- Enrichr for enrichment analysis
+- [Weka](https://waikato.github.io/weka-wiki/downloading_weka/)
+- [Jupyter Notebooks](https://colab.research.google.com/)
+- [Enrichr](https://maayanlab.cloud/Enrichr/) for enrichment analysis
 
 #### Steps
 
@@ -43,6 +44,39 @@ Clone the Repository:
 git clone https://github.com/Shamima21/CancerGeneIdentification.git
 cd CancerGeneIdentification
 ```
+
+## Running the Experiments
+The experiments can be run both from the Weka UI and a Jupyter notebook on Google Colab.
+### For Weka
+#### 1. Preprocess Data
+Open Weka:
+Download and install Weka.
+Launch Weka and load the microarray data files from the data folder.
+Apply Normalization:
+
+Normalize the data according to the methods detailed in the thesis to ensure consistency and comparability.
+#### 2. Feature Selection
+Pearson-Corelation Based Ranking
+Hybrid Wrapper Method:
+
+Use the hybrid wrapper method implemented in Weka to select significant genes.
+Save the selected genes for further analysis.
+#### 3. Classification and Validation
+Load Selected Genes:
+
+Import the selected genes into Weka.
+Apply Classifiers:
+
+Use classifiers such as SVM, Naive Bayes, Random Forest, and others.
+Evaluate the performance using metrics like accuracy, precision, recall, and F1-score.
+Validation Techniques:
+
+#### 4. Enrichment Analysis
+Perform Enrichment Analysis:
+
+Use the selected genes to conduct enrichment analysis.
+Identify significant pathways and assess the biological relevance of the gene sets.
+
 ## Comparative Methods Accuracy Evaluation
 We evaluated the accuracy of two state-of-the-art methods on our training dataset, validated using our test set. Additionally, we validated the accuracy using methods such as LOOCV and 10-fold CV. The results of these comparisons, including accuracy evaluations, overlap analysis, and biological relevance analysis, are provided in [Comparative Evaluation](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Comparative%20Evaluation)
 
