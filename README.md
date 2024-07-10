@@ -1,4 +1,4 @@
-![Copy of 0419052090_M Sc Thesis Proposal pptx](https://github.com/Shamima21/CancerGeneIdentification/assets/25305468/fb60e1cd-ace4-4644-91af-83e32e40fbfe)# Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning.
+# Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning.
 ### Overview
 
 ![Copy of 0419052090_M Sc Thesis Proposal pptx](https://github.com/Shamima21/CancerGeneIdentification/assets/25305468/ca44d9f7-b8be-4425-935d-10b85bca4518)
