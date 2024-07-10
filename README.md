@@ -1,9 +1,11 @@
-# Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning.
+![Copy of 0419052090_M Sc Thesis Proposal pptx](https://github.com/Shamima21/CancerGeneIdentification/assets/25305468/fb60e1cd-ace4-4644-91af-83e32e40fbfe)# Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning.
 ### Overview
+
+![Copy of 0419052090_M Sc Thesis Proposal pptx](https://github.com/Shamima21/CancerGeneIdentification/assets/25305468/ca44d9f7-b8be-4425-935d-10b85bca4518)
 
 Cancer is still one of the most notable causes of death worldwide. Identifying cancer-causing genes is essential for understanding cancer development and its progression. 
 
-This repository presents a structured framework for the research project titled "Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning." The project utilized existing metaheuristics and machine-learning approaches to enhance the identification of the most significant genes from microarray data. To ensure biological relevance, enrichment analysis, a statistical method, was also integrated. This might help in finding more suitable genes that could be valuable for early diagnosis, personalized therapitucal targets, and future oncogenetic research.
+This repository presents a structured framework for the research project titled "Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning." The project utilized existing metaheuristics and machine-learning approaches to enhance the identification of the most significant genes from microarray data. To ensure biological relevance, enrichment analysis, a statistical method, was also integrated. This might help in finding more suitable genes that could be valuable for early diagnosis, personalized therapeutical targets, and future oncogenetic research.
 
 ## Key contributions
 Our main contributions are as follows:
@@ -39,24 +41,21 @@ This project contains several components:
 
 #### Steps
 
-Clone the Repository:
-```bash
-git clone https://github.com/Shamima21/CancerGeneIdentification.git
-cd CancerGeneIdentification
-```
 
 ## Running the Experiments
-The experiments can be run both from the Weka UI and a Jupyter notebook on Google Colab.
+The experiments can be run both from the Weka UI and  Jupyter Notebook on Google Colab.
 ### For Weka
 #### 1. Preprocess Data
 Open Weka:
 Download and install Weka.
-Launch Weka and load the microarray data files from the data folder.
+Launch Weka and load the microarray data files from the [raw data](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Data/Raw) folder.
+Split Train-Test
 Apply Normalization:
 
-Normalize the data according to the methods detailed in the thesis to ensure consistency and comparability.
+Normalize the Train data according to the methods detailed in the thesis to ensure consistency and comparability.
 #### 2. Feature Selection
-Pearson-Corelation Based Ranking
+Pearson-Correlation Based Ranking:
+
 Hybrid Wrapper Method:
 
 Use the hybrid wrapper method implemented in Weka to select significant genes.
@@ -76,6 +75,15 @@ Perform Enrichment Analysis:
 
 Use the selected genes to conduct enrichment analysis.
 Identify significant pathways and assess the biological relevance of the gene sets.
+
+### Running From Scripts
+
+#### 1. Clone the Repository:
+```bash
+git clone https://github.com/Shamima21/CancerGeneIdentification.git
+cd CancerGeneIdentification
+```
+
 
 ## Comparative Methods Accuracy Evaluation
 We evaluated the accuracy of two state-of-the-art methods on our training dataset, validated using our test set. Additionally, we validated the accuracy using methods such as LOOCV and 10-fold CV. The results of these comparisons, including accuracy evaluations, overlap analysis, and biological relevance analysis, are provided in [Comparative Evaluation](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Comparative%20Evaluation)
