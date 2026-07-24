@@ -1,5 +1,4 @@
-# Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning.
-### Overview
+#CGI_MMLP: A synergistic Metaheuristics-Machine Learning framework for Cancer Gene Identification with Pathway-Enrichment based Validation
 
 ![Copy of 0419052090_M Sc Thesis Proposal pptx](https://github.com/Shamima21/CancerGeneIdentification/assets/25305468/ca44d9f7-b8be-4425-935d-10b85bca4518)
 
