@@ -59,6 +59,15 @@ This project contains several components:
 - [Weka](https://waikato.github.io/weka-wiki/downloading_weka/)
 - [Jupyter Notebooks](https://colab.research.google.com/)
 - [Enrichr](https://maayanlab.cloud/Enrichr/) for enrichment analysis
+## Datasets
+
+The experiments were conducted using publicly available microarray datasets.
+
+- Leukemia
+- DLBCL
+- Prostate Cancer
+
+The datasets are available in the [Data](https://github.com/Shamima21/CancerGeneIdentification/tree/main/Data) directory.
 
 #### Steps
 
