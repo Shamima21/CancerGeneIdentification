@@ -6,6 +6,27 @@
 Cancer is still one of the most notable causes of death worldwide. Identifying cancer-causing genes is essential for understanding cancer development and its progression. 
 
 This repository presents a structured framework for the research project titled "Identification of Cancer-Causing Genes from Microarray Data Using Metaheuristics and Machine Learning." The project utilized existing metaheuristics and machine-learning approaches to enhance the identification of the most significant genes from microarray data. To ensure biological relevance, enrichment analysis, a statistical method, was also integrated. This might help in finding more suitable genes that could be valuable for early diagnosis, personalized therapeutical targets, and future oncogenetic research.
+# Reproducibility
+
+This repository contains the complete implementation of the proposed framework described in the manuscript.
+
+The repository includes:
+
+- Source code
+- Raw and preprocessed datasets
+- Experimental scripts
+- Selected genes
+- Comparative evaluation
+- Enrichment analysis
+- Results reported in the manuscript
+
+The reproducible version corresponding to the published manuscript is available as **Release v1.0**.
+
+Repository:
+https://github.com/Shamima21/CancerGeneIdentification
+
+Release:
+https://github.com/Shamima21/CancerGeneIdentification/releases/tag/(CGI_MMLP)v1.0
 
 ## Key contributions
 Our main contributions are as follows:
