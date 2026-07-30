@@ -1,6 +1,12 @@
 #CGI_MMLP: A synergistic Metaheuristics-Machine Learning framework for Cancer Gene Identification with Pathway-Enrichment based Validation
 
-![Copy of 0419052090_M Sc Thesis Proposal pptx](https://github.com/Shamima21/CancerGeneIdentification/assets/25305468/ca44d9f7-b8be-4425-935d-10b85bca4518)
+
+<img width="700" height="800" alt="High level workflow drawio-1" src="https://github.com/user-attachments/assets/9e4c621c-f27e-49af-bb38-9929c5d54c75" />
+
+<img width="2000" height="1125" alt="Summary Framework (1)-1" src="https://github.com/user-attachments/assets/be638275-126d-41db-9bbf-352cf9aa6485" />
+
+
+
 
 Cancer is still one of the most notable causes of death worldwide. Identifying cancer-causing genes is essential for understanding cancer development and its progression. 
 
